@@ -761,6 +761,10 @@ position: absolute;
 top: 8px;
 right: 8px;
 
+display: inline-flex;
+justify-content: center;
+align-items: center;
+
 padding: 0;
 width: 30px;
 height: 30px;
@@ -772,9 +776,6 @@ background: var(--secondary-text-color);
 
 .icon-close {
     fill: #000000;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .button-icon:hover,
